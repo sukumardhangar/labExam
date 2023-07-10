@@ -2,6 +2,7 @@ const express =  require('express');
 const empsRelatedRoutes = require('./routes/emp');
 
 console.log("done")
+console.log("done")
 
 const app = express();
 app.use((request, response, next)=>{
